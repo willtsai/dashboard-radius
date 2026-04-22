@@ -41,7 +41,7 @@ Always run `yarn tsc` and `yarn lint:all` before committing changes.
 
 ### Formatting and Linting
 
-- **Prettier** is the formatter. The project uses `@spotify/prettier-config` with a `printWidth` of **160** and `tabWidth` of **2**.
+- **Prettier** is the formatter. The active formatting settings are defined in `.prettierrc`, including a `printWidth` of **160** and `tabWidth` of **2**.
 - **ESLint** is configured with TypeScript and React plugins. Follow the rules defined in `eslint.config.js`.
 - Use `yarn fix` to auto-fix linting issues and `yarn format:write` to auto-format.
 
