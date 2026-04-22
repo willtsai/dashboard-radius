@@ -82,6 +82,10 @@ Always run `yarn tsc` and `yarn lint:all` before committing changes.
 - Start by [choosing an existing issue](https://github.com/radius-project/dashboard/issues) or opening a new one before submitting code changes.
 - See [CONTRIBUTING.md](../CONTRIBUTING.md) for full contributor documentation.
 
+## CI Pipeline
+
+When running as the Copilot coding agent on GitHub, monitor the CI pipeline results after pushing changes. Check the status of the `Build` workflow (`.github/workflows/build.yaml`) and any other checks on the pull request. If CI fails, read the job logs, diagnose the failure, and push a fix — do not leave a PR with failing CI.
+
 ## Temporary Planning Files
 
 Copilot can create temporary planning files in the `.copilot-tracking/` folder at the root of the repository. This folder should be included in `.gitignore` and will not be committed to the repository. Use this folder for:
